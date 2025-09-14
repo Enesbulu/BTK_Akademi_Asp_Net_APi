@@ -1,0 +1,10 @@
+
+-Öncelikle bir Model yapýsý oluþturuldu.
+-Modele baðlý bir Controller yapýsý oluþturuldu.
+-Controller içerisinde ILogger ile bir interface tanýmlamasý eklendi.
+-Ilogger için Ctor ile Dependency Injection yapýldý.
+-HttpGet Metodu oluþturuldu.
+-Metod içerisinde loglama iþlemi için info seviyesinde bir log kaydý eklendi.
+
+-IOC üzerinden Log kayýtlarýný eklemek adýna gerekli kütüphane eklemeleri yapýldý.
+-appsettings.json içerisinde "Microsoft" için Warning seviyesinde log kaydý seviye yapýlandýrýlmasý yapýldý.
