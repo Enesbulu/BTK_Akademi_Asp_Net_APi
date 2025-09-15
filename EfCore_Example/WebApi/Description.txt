@@ -1,0 +1,6 @@
+-Modals klsörü içerisinde bir Book model classý oluþturuldu.
+-Repository klasörü içerisinde RepositoryDbContext classý oluþturuldu.
+-Microsoft.EntityFrameworkCore paketi kuruldu.
+-EntityFrameworkCore.SqlServer paketi kuruldu.
+-Connection String baðlantý dizesi appsettings dosyasýna eklendi.
+-Program.cs içerisinde IOC servis kaydý yapýldý.

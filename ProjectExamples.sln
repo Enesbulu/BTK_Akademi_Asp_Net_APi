@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36408.4 d17.14
+VisualStudioVersion = 17.14.36408.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loggin_Example", "Loggin_Example\Loggin_Example.csproj", "{CBEC4B14-55DC-48B6-BBA3-60E32FFF889E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookDemo", "BookDemo\BookDemo.csproj", "{DC7E2710-308F-462E-9177-8EA5EB99E92C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EfCore_Example", "EfCore_Example", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "EfCore_Example\WebApi\WebApi.csproj", "{44A5F338-F08A-43F7-802F-E9C983E26CDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{DC7E2710-308F-462E-9177-8EA5EB99E92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC7E2710-308F-462E-9177-8EA5EB99E92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC7E2710-308F-462E-9177-8EA5EB99E92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A5F338-F08A-43F7-802F-E9C983E26CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A5F338-F08A-43F7-802F-E9C983E26CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A5F338-F08A-43F7-802F-E9C983E26CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A5F338-F08A-43F7-802F-E9C983E26CDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44A5F338-F08A-43F7-802F-E9C983E26CDA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C33921BA-5303-486F-8D9E-8F095EAC9A60}
