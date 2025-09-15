@@ -1,0 +1,6 @@
+-Ýlk olarak bir Book model yapýsý oluþturuldu.
+-Book model yapýsý için bir controller oluþturuldu.
+-Pratik olarak inMemory veriler için bir Data klasörü içerisinde veri seti oluþturuldu.
+-Crud iþlemleri için action metodlarý oluþturuldu.
+-Patch metodu için NewtonsoftJson ve JsonPatch paketleri kuruldu.
+-
