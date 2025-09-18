@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using nTier.Repositories.Contracts;
+using nTier.Repositories.EFCore;
 using nTier.Repositories.EFCore.Repositories;
 
 namespace nTier.WebApi.Extensions
@@ -12,5 +14,6 @@ namespace nTier.WebApi.Extensions
                 )
             );
 
+        public static void ConfigureRepositoryManager(this IServiceCollection services) => services.AddScoped<IRepositoryManager, RepositoryManager>();
     }
 }
