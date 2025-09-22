@@ -20,7 +20,9 @@
 	  </PackageReference>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <ProjectReference Include="..\nTier.Entites\nTier.Entites.csproj" />
+    <ProjectReference Include="..\nTier.Presentation\nTier.Presentation.csproj" />
     <ProjectReference Include="..\nTier.Repositories\nTier.Repositories.csproj" />
+    <ProjectReference Include="..\nTier.Services\nTier.Services.csproj" />
 	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
 
   </ItemGroup>

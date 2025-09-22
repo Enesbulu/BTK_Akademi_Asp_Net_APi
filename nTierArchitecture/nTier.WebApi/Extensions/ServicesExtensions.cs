@@ -2,6 +2,8 @@
 using nTier.Repositories.Contracts;
 using nTier.Repositories.EFCore;
 using nTier.Repositories.EFCore.Repositories;
+using nTier.Services;
+using nTier.Services.Contracts;
 
 namespace nTier.WebApi.Extensions
 {
@@ -15,5 +17,6 @@ namespace nTier.WebApi.Extensions
             );
 
         public static void ConfigureRepositoryManager(this IServiceCollection services) => services.AddScoped<IRepositoryManager, RepositoryManager>();
+        public static void ConfigureServiceManager(this IServiceCollection services) => services.AddScoped<IServiceManager, ServiceManager>();
     }
 }

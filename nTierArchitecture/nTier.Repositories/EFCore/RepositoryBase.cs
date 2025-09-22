@@ -20,7 +20,9 @@ namespace nTier.Repositories.EFCore
 
         public IQueryable<T> FindAll(bool trachChanges) => !trachChanges ? _context.Set<T>().AsNoTracking() : _context.Set<T>();
 
-        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trachChanges) => trachChanges ? _context.Set<T>().Where(expression) : _context.Set<T>().Where(expression).AsNoTracking<T>();
+        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trachChanges) =>
+          trachChanges ? _context.Set<T>().Where(expression) : _context.Set<T>().Where(expression).AsNoTracking<T>();
+
 
         public void Update(T entity) => _context.Set<T>().Update(entity);
     }

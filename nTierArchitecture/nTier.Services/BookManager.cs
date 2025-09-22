@@ -41,6 +41,7 @@ namespace nTier.Services
             if (entity is null)
                 throw new Exception($"{id} ile ilgili bir kayıt bulunamadı!");
 
+
             return entity;
 
         }
